@@ -9,12 +9,12 @@
 
 	let { title, date, description, author = 'WorshipOS Team', children } = $props<Props>();
 
-	const formatted = new Date(date).toLocaleDateString('en-US', {
+	const formatted = $derived(new Date(date).toLocaleDateString('en-US', {
 		year: 'numeric',
 		month: 'long',
 		day: 'numeric',
 		timeZone: 'UTC'
-	});
+	}));
 </script>
 
 <svelte:head>
@@ -23,7 +23,9 @@
 		<meta name="description" content={description} />
 		<meta property="og:description" content={description} />
 	{/if}
-	<meta property="og:title" content={title} />
+	<meta property="og:title" content="{title} — WorshipOS Blog" />
+	<meta name="twitter:title" content="{title} — WorshipOS Blog" />
+	{#if description}<meta name="twitter:description" content={description} />{/if}
 </svelte:head>
 
 <main class="mx-auto max-w-3xl px-6 py-16">

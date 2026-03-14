@@ -11,6 +11,14 @@
 		href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
 		rel="stylesheet"
 	/>
+	<!-- Default OG tags — overridden per-page via <svelte:head> in child routes -->
+	<meta property="og:site_name" content="WorshipOS" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="https://www.worshiposonline.com/og-image.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:image" content="https://www.worshiposonline.com/og-image.png" />
 </svelte:head>
 
 <header class="sticky top-0 z-50 border-b border-[var(--color-border)] bg-[var(--color-surface)]/90 backdrop-blur-sm">

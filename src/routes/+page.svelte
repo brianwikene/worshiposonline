@@ -64,6 +64,11 @@
 		name="description"
 		content="WorshipOS is calm, trustworthy software for churches that want to plan services, coordinate volunteers, and prepare musicians — without treating people like cogs."
 	/>
+	<meta property="og:title" content="WorshipOS — Worship planning that honors the person, not just the production" />
+	<meta property="og:description" content="WorshipOS is calm, trustworthy software for churches that want to plan services, coordinate volunteers, and prepare musicians — without treating people like cogs." />
+	<meta property="og:url" content="https://www.worshiposonline.com" />
+	<meta name="twitter:title" content="WorshipOS — Worship planning that honors the person, not just the production" />
+	<meta name="twitter:description" content="Calm, trustworthy worship planning software for churches. Plan services, coordinate volunteers, prepare musicians." />
 </svelte:head>
 
 <!-- HERO -->
