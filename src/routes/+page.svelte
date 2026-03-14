@@ -4,56 +4,98 @@
 	const features = [
 		{
 			icon: '📋',
-			title: 'Gathering Planning',
-			body: "Build service plans with liturgy, music, production cues, and volunteer assignments — all in one place. Lock the plan before Sunday and preserve an honest record of what was prepared."
-		},
-		{
-			icon: '👥',
-			title: 'Team Scheduling',
-			body: "Assign volunteers with awareness of availability and care. Send email invitations, receive confirmations, and see who said yes, who said no, and who hasn't responded — without chasing anyone."
+			title: 'Worship Flow',
+			body: 'Build and lock your order of worship with calm edits, audibles, and preserved history.'
 		},
 		{
 			icon: '🎵',
-			title: 'Song & Media Library',
-			body: "Organize your song library with keys, BPM, chord charts, and training media. Musicians open their rehearsal view and see charts, key, and audio links — before they arrive."
+			title: 'Songs',
+			body: 'Keep charts, keys, and arrangement notes in one place so rehearsal stays prepared.'
+		},
+		{
+			icon: '👥',
+			title: 'Volunteer Scheduling',
+			body: 'Assign by role, honor availability, and send clear invites without pressure language.'
+		},
+		{
+			icon: '🤲',
+			title: 'Care Notes',
+			body: 'Capture important context quietly so leaders can respond pastorally, not reactively.'
+		},
+		{
+			icon: '🏘️',
+			title: 'Groups',
+			body: 'See teams and households clearly, with roles and relationships that stay easy to maintain.'
+		},
+		{
+			icon: '🧒',
+			title: 'Kids Check-In',
+			body: 'Secure check-in/check-out workflows built for safety, accountability, and parent confidence.'
 		}
 	];
 
-	const trustItems = [
+	const differences = [
 		{
-			title: 'No gamification',
-			body: "We don't rank volunteers, score commitment, or reward attendance streaks. People aren't metrics, and faithfulness isn't a leaderboard."
+			pressure: 'URGENT: You\'re short again.',
+			calm: 'Two positions are still open. Invite backups or review blockouts.'
 		},
 		{
-			title: 'Calm by design',
-			body: "No red badges, no urgency theater. Information is present when you need it and quiet when you don't. The interface feels like a reliable colleague, not a dashboard alarm."
+			pressure: 'Volunteer Health Score dropped 28%.',
+			calm: 'Jeff has served five straight Sundays. Consider a rest week.'
 		},
 		{
-			title: 'Care is built in',
-			body: "Pastoral notes, prayer requests, and wellbeing signals live alongside scheduling — not in a separate silo. The system that knows when someone is serving should also know when they need support."
-		},
-		{
-			title: 'History is preserved',
-			body: "Edits are tracked, not overwritten. Locked plans stay locked. Your team's record is honest and auditable — because what actually happened on Sunday matters."
+			pressure: 'No response from team members.',
+			calm: '4 responses are still pending. Send one gentle reminder.'
 		}
+	];
+
+	const beliefs = [
+		'We believe trust is the feature that matters most.',
+		'We believe history should be preserved, not rewritten.',
+		'We believe software should reduce anxiety, not manufacture urgency.',
+		'We believe leaders need clarity, not noise.'
 	];
 
 	const faqs = [
 		{
-			q: 'Who is WorshipOS built for?',
-			a: "WorshipOS is built for worship directors, music directors, and church administrators at churches with 1–3 campuses and 20–150 volunteers. If you're coordinating a worship team, a kids team, or any group of people who serve on a weekly rhythm, WorshipOS is designed for you."
+			q: 'Will this create more work during setup?',
+			a: 'Most churches are up and running in an afternoon. You can import your songs, add your team, and build your first plan before the week is out. We designed onboarding to meet you where you are — not to require a fully staffed setup project.'
 		},
 		{
-			q: 'Is WorshipOS only for large churches?',
-			a: "No. WorshipOS works well for a church of 50 with a dozen volunteers just as much as a church of 500 with a full production team. You can start with just a worship team and grow from there — the system does not assume you're fully staffed or technically mature on day one."
+			q: 'Our volunteers resist new tools. Will this be hard to adopt?',
+			a: 'Volunteers only see what is relevant to them: their schedule, their assignments, and their rehearsal materials. There is no app to download, no account to create for basic responses. The interface is calm by design — it does not demand attention.'
 		},
 		{
-			q: 'How is this different from Planning Center or other tools?',
-			a: "Planning Center is excellent software. WorshipOS is designed around a different premise: coordination is part of care, not an end in itself. That means no volunteer scoring, no engagement badges, no urgency theater. We also preserve honest history — locked plans stay locked, and real-world changes are recorded, not silently overwritten."
+			q: 'We already use Planning Center. Why switch?',
+			a: 'Planning Center is excellent software. WorshipOS is designed around a different premise: coordination is part of care, not an end in itself. That means no volunteer scoring, no engagement badges, no urgency theater. We also preserve honest history — locked plans stay locked, and real-world changes are recorded, not silently overwritten.'
 		},
 		{
-			q: 'What does it cost?',
-			a: "WorshipOS is currently in pilot with a small group of churches. Pricing will be announced before general availability. If you would like to be part of the pilot, reach out — we would love to have you."
+			q: 'Does the system auto-schedule people?',
+			a: 'No. WorshipOS surfaces availability and history so you can make a good decision — it does not make the decision for you. Scheduling is a pastoral act, and we think it should stay that way.'
+		},
+		{
+			q: 'Can this handle multiple services and split teams?',
+			a: 'Yes. You can define multiple service times per gathering, assign volunteers to specific times, and see the full schedule matrix at a glance. Split teams, rotating roles, and per-service assignments are all supported.'
+		},
+		{
+			q: 'Is kids check-in secure enough for real ministry use?',
+			a: 'Check-in generates unique family codes, tracks guardian pickup, and keeps a complete attendance record. It is designed for the real accountability needs of a children\'s ministry — not as an afterthought.'
+		},
+		{
+			q: 'Will private care context be exposed to everyone?',
+			a: 'No. Care notes are access-controlled separately from scheduling. A volunteer coordinator can see schedules without ever seeing pastoral care context. The system is designed so that sensitive information stays with the people who need it.'
+		},
+		{
+			q: 'Can we migrate gradually instead of all at once?',
+			a: 'Yes. You can start with just worship planning and add scheduling, check-in, or care tools as your team is ready. Nothing requires a big-bang cutover.'
+		},
+		{
+			q: 'What happens when people do not respond to invites?',
+			a: 'WorshipOS shows you clearly who has responded and who has not — without sending automated pressure reminders on your behalf. You decide when and how to follow up. The system supports that decision; it does not make it for you.'
+		},
+		{
+			q: 'What if we need help on a Sunday morning?',
+			a: 'We offer direct support via email and are building a growing help center. We are a small team that cares about the churches we work with — you will not be routed through a chatbot.'
 		}
 	];
 </script>
@@ -74,19 +116,22 @@
 <!-- HERO -->
 <section class="px-6 pb-24 pt-20 text-center md:pt-32">
 	<div class="mx-auto max-w-3xl">
+		<p class="mb-4 text-sm font-semibold uppercase tracking-widest text-[var(--color-muted)]">
+			Calm church operations
+		</p>
 		<h1 class="font-serif text-5xl font-bold leading-tight text-[var(--color-ink)] md:text-6xl lg:text-7xl">
-			Worship planning that honors the person, not just the production.
+			A calm place to plan, schedule, and shepherd your people.
 		</h1>
 		<p class="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-[var(--color-muted)]">
-			WorshipOS is calm, trustworthy software for churches that want to plan services, care for
-			volunteers, and coordinate teams — without the noise.
+			WorshipOS helps your team carry real ministry responsibility without drowning in spreadsheets,
+			urgency alerts, and fragmented tools.
 		</p>
 		<div class="mt-10 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
 			<a
 				href="https://app.worshiposonline.com/signup"
 				class="rounded-xl bg-[var(--color-brand)] px-8 py-3.5 font-semibold text-white transition-colors hover:bg-[var(--color-brand-mid)]"
 			>
-				Get started
+				Request early access
 			</a>
 			<a
 				href="/docs"
@@ -98,20 +143,70 @@
 	</div>
 </section>
 
+<!-- WEIGHT YOU CARRY -->
+<section class="bg-[var(--color-card)] px-6 py-20">
+	<div class="mx-auto max-w-2xl text-center">
+		<h2 class="font-serif text-3xl font-bold text-[var(--color-ink)] md:text-4xl">
+			We understand the weight you carry.
+		</h2>
+		<p class="mt-6 text-lg leading-relaxed text-[var(--color-muted)]">
+			You are not just organizing people. You are stewarding trust, protecting volunteers from
+			burnout, and helping every Sunday feel cared for.
+		</p>
+		<p class="mt-4 text-lg leading-relaxed text-[var(--color-muted)]">
+			That work deserves software that lowers noise and makes decisions clearer.
+		</p>
+	</div>
+</section>
+
+<!-- THE DIFFERENCE -->
+<section class="px-6 py-20">
+	<div class="mx-auto max-w-4xl">
+		<div class="mb-10 text-center">
+			<h2 class="font-serif text-3xl font-bold text-[var(--color-ink)] md:text-4xl">
+				The difference
+			</h2>
+			<p class="mt-3 text-[var(--color-muted)]">
+				Most church software shouts. WorshipOS observes, clarifies, and helps leaders decide.
+			</p>
+		</div>
+		<div class="overflow-hidden rounded-2xl border border-[var(--color-border)]">
+			<div class="grid grid-cols-2">
+				<div class="border-b border-r border-[var(--color-border)] bg-red-50 px-6 py-3">
+					<p class="text-xs font-bold uppercase tracking-widest text-red-400">Pressure language</p>
+				</div>
+				<div class="border-b border-[var(--color-border)] bg-[var(--color-surface)] px-6 py-3">
+					<p class="text-xs font-bold uppercase tracking-widest text-[var(--color-brand)]">Calm operational language</p>
+				</div>
+			</div>
+			{#each differences as row}
+				<div class="grid grid-cols-2">
+					<div class="border-b border-r border-[var(--color-border)] bg-red-50 px-6 py-5">
+						<p class="text-sm text-red-700">{row.pressure}</p>
+					</div>
+					<div class="border-b border-[var(--color-border)] bg-[var(--color-card)] px-6 py-5">
+						<p class="text-sm text-[var(--color-ink)]">{row.calm}</p>
+					</div>
+				</div>
+			{/each}
+		</div>
+	</div>
+</section>
+
 <!-- FEATURES -->
-<section id="features" class="px-6 py-20">
+<section id="features" class="bg-[var(--color-card)] px-6 py-20">
 	<div class="mx-auto max-w-5xl">
 		<div class="mb-12 text-center">
 			<h2 class="font-serif text-3xl font-bold text-[var(--color-ink)] md:text-4xl">
-				What WorshipOS does
+				What it does
 			</h2>
 			<p class="mx-auto mt-3 max-w-lg text-[var(--color-muted)]">
 				Everything your team needs to plan, coordinate, and care — in one quiet, reliable place.
 			</p>
 		</div>
-		<div class="grid gap-5 md:grid-cols-3">
+		<div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
 			{#each features as feature (feature.title)}
-				<div class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-card)] p-7">
+				<div class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)] p-7">
 					<span class="mb-4 block text-2xl">{feature.icon}</span>
 					<h3 class="mb-2 font-serif text-xl font-bold text-[var(--color-ink)]">{feature.title}</h3>
 					<p class="text-sm leading-relaxed text-[var(--color-muted)]">{feature.body}</p>
@@ -121,36 +216,56 @@
 	</div>
 </section>
 
-<!-- TRUST — DARK SECTION -->
+<!-- MANIFESTO — DARK SECTION -->
 <section class="bg-[var(--color-brand)] px-6 py-24 text-[var(--color-dark-text)]">
-	<div class="mx-auto max-w-5xl">
+	<div class="mx-auto max-w-4xl">
 		<div class="mb-14 text-center">
-			<p class="font-serif text-2xl font-bold italic text-[var(--color-dark-muted)]">
-				Most church software optimizes for productivity.
-			</p>
-			<p class="mt-1 font-serif text-2xl font-bold text-[var(--color-dark-text)]">
-				We optimize for trust. Here is what that means in practice.
+			<h2 class="font-serif text-3xl font-bold text-[var(--color-dark-text)] md:text-4xl">
+				Manifesto
+			</h2>
+			<p class="mt-3 text-[var(--color-dark-muted)]">
+				Software for the church should preserve dignity, protect context, and keep people human.
 			</p>
 		</div>
 		<div class="grid gap-4 sm:grid-cols-2">
-			{#each trustItems as item (item.title)}
-				<div class="rounded-xl bg-[var(--color-dark-card)] p-6">
-					<h3 class="mb-2 font-semibold text-[var(--color-dark-text)]">{item.title}</h3>
-					<p class="text-sm leading-relaxed text-[var(--color-dark-muted)]">{item.body}</p>
+			{#each beliefs as belief}
+				<div class="rounded-xl border border-[var(--color-dark-card)] bg-[var(--color-dark-card)] px-7 py-5">
+					<p class="font-medium text-[var(--color-dark-text)]">{belief}</p>
 				</div>
 			{/each}
 		</div>
 	</div>
 </section>
 
-<!-- TESTIMONIAL -->
-<section class="px-6 py-24 text-center">
-	<div class="mx-auto max-w-2xl">
-		<blockquote class="font-serif text-2xl font-medium italic leading-relaxed text-[var(--color-ink)] md:text-3xl">
-			"We stopped fighting our tools and started noticing our team."
-		</blockquote>
-		<p class="mt-6 text-sm font-semibold text-[var(--color-ink)]">Sarah Mitchell</p>
-		<p class="mt-1 text-sm text-[var(--color-muted)]">Worship Director, Grace Community Church</p>
+<!-- TESTIMONIALS -->
+<section class="px-6 py-24">
+	<div class="mx-auto max-w-5xl">
+		<h2 class="mb-12 text-center font-serif text-3xl font-bold text-[var(--color-ink)]">
+			Trust signals
+		</h2>
+		<div class="grid gap-6 sm:grid-cols-3">
+			<div class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-card)] p-7">
+				<blockquote class="font-serif text-base italic leading-relaxed text-[var(--color-ink)]">
+					"We stopped fighting our tools and started noticing our team."
+				</blockquote>
+				<p class="mt-4 text-sm font-semibold text-[var(--color-ink)]">Sarah Mitchell</p>
+				<p class="text-sm text-[var(--color-muted)]">Worship Director, Grace Community Church</p>
+			</div>
+			<div class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-card)] p-7">
+				<blockquote class="font-serif text-base italic leading-relaxed text-[var(--color-ink)]">
+					"Volunteers actually reply faster because the asks are clear and gentle."
+				</blockquote>
+				<p class="mt-4 text-sm font-semibold text-[var(--color-ink)]">TODO: Real testimonial</p>
+				<p class="text-sm text-[var(--color-muted)]">Role, Church Name</p>
+			</div>
+			<div class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-card)] p-7">
+				<blockquote class="font-serif text-base italic leading-relaxed text-[var(--color-ink)]">
+					"The plan felt calmer, and Sunday felt less reactive."
+				</blockquote>
+				<p class="mt-4 text-sm font-semibold text-[var(--color-ink)]">TODO: Real testimonial</p>
+				<p class="text-sm text-[var(--color-muted)]">Role, Church Name</p>
+			</div>
+		</div>
 	</div>
 </section>
 
@@ -158,7 +273,7 @@
 <section class="bg-[var(--color-card)] px-6 py-20">
 	<div class="mx-auto max-w-2xl">
 		<h2 class="mb-10 text-center font-serif text-3xl font-bold text-[var(--color-ink)]">
-			Common questions
+			Common objections
 		</h2>
 		<div class="divide-y divide-[var(--color-border)]">
 			{#each faqs as faq, i (faq.q)}
@@ -188,16 +303,24 @@
 <section class="px-6 py-24 text-center">
 	<div class="mx-auto max-w-xl">
 		<h2 class="font-serif text-4xl font-bold text-[var(--color-ink)]">
-			Ready to bring calm to your team?
+			A calm place to hold the life of your church.
 		</h2>
 		<p class="mx-auto mt-4 max-w-md text-[var(--color-muted)]">
-			WorshipOS helps your church plan with clarity and care for the people who serve.
+			Move from reactive coordination to steady shepherding, one gathering at a time.
 		</p>
-		<a
-			href="https://app.worshiposonline.com/signup"
-			class="mt-8 inline-block rounded-xl bg-[var(--color-brand)] px-8 py-3.5 font-semibold text-white transition-colors hover:bg-[var(--color-brand-mid)]"
-		>
-			Get started
-		</a>
+		<div class="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+			<a
+				href="https://app.worshiposonline.com/signup"
+				class="rounded-xl bg-[var(--color-brand)] px-8 py-3.5 font-semibold text-white transition-colors hover:bg-[var(--color-brand-mid)]"
+			>
+				Request early access
+			</a>
+			<a
+				href="https://app.worshiposonline.com/login"
+				class="rounded-xl border border-[var(--color-border)] bg-white px-8 py-3.5 font-semibold text-[var(--color-ink)] transition-colors hover:bg-[var(--color-surface)]"
+			>
+				Sign in
+			</a>
+		</div>
 	</div>
 </section>
