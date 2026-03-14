@@ -1,0 +1,69 @@
+@import 'tailwindcss';
+
+@theme {
+	/* Typography */
+	--font-sans: 'Inter', system-ui, sans-serif;
+	--font-serif: 'Lora', Georgia, serif;
+
+	/* Brand palette — warm, pastoral, calm */
+	--color-brand:      #2a3728;   /* dark forest green — primary CTAs, dark section bg */
+	--color-brand-mid:  #3d5239;   /* slightly lighter green for hover states */
+	--color-ink:        #1a1f18;   /* near-black with green undertone */
+	--color-muted:      #6b7569;   /* medium warm gray-green */
+	--color-subtle:     #9aa097;   /* lighter muted for captions */
+	--color-surface:    #f5f4f0;   /* warm off-white — page background */
+	--color-card:       #ffffff;   /* pure white for cards */
+	--color-border:     #e2e0da;   /* warm light border */
+	--color-dark-card:  #3a4c37;   /* card bg within dark section */
+	--color-dark-text:  #e8ebe7;   /* text on dark background */
+	--color-dark-muted: #a8b4a6;   /* muted text on dark background */
+}
+
+body {
+	font-family: var(--font-sans);
+	color: var(--color-ink);
+	background: var(--color-surface);
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Prose for MDsveX */
+.prose {
+	max-width: 68ch;
+	line-height: 1.75;
+}
+.prose h1, .prose h2, .prose h3 {
+	font-family: var(--font-serif);
+	font-weight: 700;
+	line-height: 1.25;
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+}
+.prose h1 { font-size: 2rem; }
+.prose h2 { font-size: 1.5rem; }
+.prose h3 { font-size: 1.2rem; }
+.prose p  { margin-bottom: 1.25em; }
+.prose a  { color: var(--color-brand); text-decoration: underline; }
+.prose ul, .prose ol { padding-left: 1.5rem; margin-bottom: 1.25em; }
+.prose li { margin-bottom: 0.4em; }
+.prose code {
+	background: #ece9e1;
+	border-radius: 0.25rem;
+	padding: 0.1em 0.35em;
+	font-size: 0.875em;
+}
+.prose pre {
+	background: var(--color-ink);
+	color: #e8ebe7;
+	border-radius: 0.5rem;
+	padding: 1.25rem;
+	overflow-x: auto;
+	margin-bottom: 1.5em;
+}
+.prose pre code { background: none; padding: 0; }
+.prose blockquote {
+	border-left: 3px solid var(--color-brand);
+	padding-left: 1rem;
+	color: var(--color-muted);
+	font-style: italic;
+	margin: 1.5em 0;
+}
