@@ -108,7 +108,7 @@
 	/>
 	<meta property="og:title" content="WorshipOS — Worship planning that honors the person, not just the production" />
 	<meta property="og:description" content="WorshipOS is calm, trustworthy software for churches that want to plan services, coordinate volunteers, and prepare musicians — without treating people like cogs." />
-	<meta property="og:url" content="https://www.worshiposonline.com" />
+	<meta property="og:url" content="https://getworshipos.com" />
 	<meta name="twitter:title" content="WorshipOS — Worship planning that honors the person, not just the production" />
 	<meta name="twitter:description" content="Calm, trustworthy worship planning software for churches. Plan services, coordinate volunteers, prepare musicians." />
 </svelte:head>
@@ -128,7 +128,7 @@
 		</p>
 		<div class="mt-10 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
 			<a
-				href="https://app.worshiposonline.com/signup"
+				href="https://worship-os.com/interest"
 				class="rounded-xl bg-[var(--color-brand)] px-8 py-3.5 font-semibold text-white transition-colors hover:bg-[var(--color-brand-mid)]"
 			>
 				Request early access
@@ -310,13 +310,13 @@
 		</p>
 		<div class="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
 			<a
-				href="https://www.worship-os.com/signup"
+				href="https://worship-os.com/interest"
 				class="rounded-xl bg-[var(--color-brand)] px-8 py-3.5 font-semibold text-white transition-colors hover:bg-[var(--color-brand-mid)]"
 			>
 				Request early access
 			</a>
 			<a
-				href="https://www.worship-os.com/login"
+				href="https://worship-os.com/login"
 				class="rounded-xl border border-[var(--color-border)] bg-white px-8 py-3.5 font-semibold text-[var(--color-ink)] transition-colors hover:bg-[var(--color-surface)]"
 			>
 				Sign in

@@ -14,11 +14,11 @@
 	<!-- Default OG tags — overridden per-page via <svelte:head> in child routes -->
 	<meta property="og:site_name" content="WorshipOS" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="https://www.worshiposonline.com/og-image.png" />
+	<meta property="og:image" content="https://www.getworshipos.com/og-image.png" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:image" content="https://www.worshiposonline.com/og-image.png" />
+	<meta name="twitter:image" content="https://www.getworshipos.com/og-image.png" />
 </svelte:head>
 
 <header class="sticky top-0 z-50 border-b border-[var(--color-border)] bg-[var(--color-surface)]/90 backdrop-blur-sm">
@@ -31,11 +31,11 @@
 			<a href="/#about" class="transition-colors hover:text-[var(--color-ink)]">About</a>
 		</nav>
 		<div class="flex items-center gap-3">
-			<a href="https://www.worship-os.com/login" class="text-sm font-medium text-[var(--color-muted)] transition-colors hover:text-[var(--color-ink)]">
+			<a href="https://worship-os.com/login" class="text-sm font-medium text-[var(--color-muted)] transition-colors hover:text-[var(--color-ink)]">
 				Log in
 			</a>
 			<a
-				href="https://www.worship-os.com/signup"
+				href="https://worship-os.com/interest"
 				class="rounded-lg bg-[var(--color-brand)] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[var(--color-brand-mid)]"
 			>
 				Get started
@@ -63,7 +63,7 @@
 					<li><a href="/#features" class="hover:text-[var(--color-ink)]">Features</a></li>
 					<li><a href="/docs" class="hover:text-[var(--color-ink)]">Docs</a></li>
 					<li><a href="/blog" class="hover:text-[var(--color-ink)]">Blog</a></li>
-					<li><a href="https://app.worshiposonline.com/signup" class="hover:text-[var(--color-ink)]">Get Started</a></li>
+					<li><a href="https://worship-os.com/interest" class="hover:text-[var(--color-ink)]">Get Started</a></li>
 				</ul>
 			</div>
 			<!-- Company -->
@@ -71,7 +71,7 @@
 				<p class="mb-3 text-xs font-bold uppercase tracking-widest text-[var(--color-subtle)]">Company</p>
 				<ul class="space-y-2 text-sm text-[var(--color-muted)]">
 					<li><a href="/#about" class="hover:text-[var(--color-ink)]">About</a></li>
-					<li><a href="mailto:hello@worshiposonline.com" class="hover:text-[var(--color-ink)]">Contact</a></li>
+					<li><a href="mailto:hello@getworshipos.com" class="hover:text-[var(--color-ink)]">Contact</a></li>
 				</ul>
 			</div>
 			<!-- Resources -->
@@ -86,8 +86,8 @@
 		<div class="mt-12 flex flex-col items-center justify-between gap-3 border-t border-[var(--color-border)] pt-6 text-xs text-[var(--color-subtle)] md:flex-row">
 			<p>© {new Date().getFullYear()} WorshipOS. All rights reserved.</p>
 			<div class="flex gap-5">
-				<a href="/docs/privacy" class="hover:text-[var(--color-muted)]">Privacy</a>
-				<a href="/docs/terms" class="hover:text-[var(--color-muted)]">Terms</a>
+				<a href="https://worship-os.com/legal/privacy" class="hover:text-[var(--color-muted)]">Privacy</a>
+				<a href="https://worship-os.com/legal/terms" class="hover:text-[var(--color-muted)]">Terms</a>
 			</div>
 		</div>
 	</div>

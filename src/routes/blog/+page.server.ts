@@ -5,11 +5,11 @@ type BlogPostMetadata = {
 	date: string;
 	description?: string;
 	author?: string;
+	tags?: string[];
 	draft?: boolean;
 };
 
 export const load: PageServerLoad = async () => {
-	// Glob all markdown post metadata from src/content/blog/
 	const modules = import.meta.glob('/src/content/blog/*.md', { eager: true, import: 'metadata' });
 
 	const posts = Object.entries(modules)
