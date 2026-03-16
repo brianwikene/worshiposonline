@@ -310,13 +310,13 @@
 		</p>
 		<div class="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
 			<a
-				href="https://app.worshiposonline.com/signup"
+				href="https://www.worship-os.com/signup"
 				class="rounded-xl bg-[var(--color-brand)] px-8 py-3.5 font-semibold text-white transition-colors hover:bg-[var(--color-brand-mid)]"
 			>
 				Request early access
 			</a>
 			<a
-				href="https://app.worshiposonline.com/login"
+				href="https://www.worship-os.com/login"
 				class="rounded-xl border border-[var(--color-border)] bg-white px-8 py-3.5 font-semibold text-[var(--color-ink)] transition-colors hover:bg-[var(--color-surface)]"
 			>
 				Sign in

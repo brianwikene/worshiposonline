@@ -31,11 +31,11 @@
 			<a href="/#about" class="transition-colors hover:text-[var(--color-ink)]">About</a>
 		</nav>
 		<div class="flex items-center gap-3">
-			<a href="https://app.worshiposonline.com/login" class="text-sm font-medium text-[var(--color-muted)] transition-colors hover:text-[var(--color-ink)]">
+			<a href="https://www.worship-os.com/login" class="text-sm font-medium text-[var(--color-muted)] transition-colors hover:text-[var(--color-ink)]">
 				Log in
 			</a>
 			<a
-				href="https://app.worshiposonline.com/signup"
+				href="https://www.worship-os.com/signup"
 				class="rounded-lg bg-[var(--color-brand)] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[var(--color-brand-mid)]"
 			>
 				Get started
