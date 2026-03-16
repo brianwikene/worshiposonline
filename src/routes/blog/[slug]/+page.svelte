@@ -1,8 +1,21 @@
 <script lang="ts">
-	import type { PageData } from './$types';
+	import { page } from '$app/state';
+	import type { Component } from 'svelte';
 
-	let { data } = $props<{ data: PageData }>();
+	type MarkdownModule = {
+		default: Component;
+	};
+
+	const posts = import.meta.glob<MarkdownModule>('/src/content/blog/*.md');
+
+	const postModule = $derived.by(() => {
+		const loader = posts[`/src/content/blog/${page.params.slug}.md`];
+		return loader ? loader() : null;
+	});
 </script>
 
-<!-- The MDsveX layout (BlogPost.svelte) wraps the content automatically via the layout key in svelte.config.js -->
-<data.content />
+{#if postModule}
+	{#await postModule then post}
+		<post.default />
+	{/await}
+{/if}

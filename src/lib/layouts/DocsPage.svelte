@@ -5,7 +5,7 @@
 		children?: import('svelte').Snippet;
 	}
 
-	let { title, description, children } = $props<Props>();
+	let { title, description, children }: Props = $props();
 </script>
 
 <svelte:head>

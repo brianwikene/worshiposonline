@@ -1,7 +1,21 @@
 <script lang="ts">
-	import type { PageData } from './$types';
+	import { page } from '$app/state';
+	import type { Component } from 'svelte';
 
-	let { data } = $props<{ data: PageData }>();
+	type MarkdownModule = {
+		default: Component;
+	};
+
+	const docs = import.meta.glob<MarkdownModule>('/src/content/docs/*.md');
+
+	const docModule = $derived.by(() => {
+		const loader = docs[`/src/content/docs/${page.params.slug}.md`];
+		return loader ? loader() : null;
+	});
 </script>
 
-<data.content />
+{#if docModule}
+	{#await docModule then doc}
+		<doc.default />
+	{/await}
+{/if}

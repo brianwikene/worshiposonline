@@ -7,7 +7,7 @@
 		children?: import('svelte').Snippet;
 	}
 
-	let { title, date, description, author = 'WorshipOS Team', children } = $props<Props>();
+	let { title, date, description, author = 'WorshipOS Team', children }: Props = $props();
 
 	const formatted = $derived(new Date(date).toLocaleDateString('en-US', {
 		year: 'numeric',
