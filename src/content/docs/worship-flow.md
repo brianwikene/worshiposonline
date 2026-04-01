@@ -59,6 +59,8 @@ Those moments are not mistakes. They are part of what the church experienced tog
 
 WorshipOS preserves both versions: what was planned before the service, and what actually happened. The original plan reflects careful preparation. The actual record reflects the reality of the day. Healthy teams learn from both.
 
+The system does not flag deviations as failures or surface them as warnings. It simply holds the honest record — what you prepared, and what the Spirit led. You decide what to carry forward.
+
 ## Sharing the flow
 
 Once the flow is built and volunteers are assigned, your entire team can view it. There is no need to export a PDF or send a separate order of service email.
