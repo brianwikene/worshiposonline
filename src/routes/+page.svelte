@@ -179,7 +179,7 @@
 					<p class="text-xs font-bold uppercase tracking-widest text-[var(--color-brand)]">Calm operational language</p>
 				</div>
 			</div>
-			{#each differences as row}
+			{#each differences as row (row.pressure)}
 				<div class="grid grid-cols-2">
 					<div class="border-b border-r border-[var(--color-border)] bg-red-50 px-6 py-5">
 						<p class="text-sm text-red-700">{row.pressure}</p>
@@ -228,7 +228,7 @@
 			</p>
 		</div>
 		<div class="grid gap-4 sm:grid-cols-2">
-			{#each beliefs as belief}
+			{#each beliefs as belief (belief)}
 				<div class="rounded-xl border border-[var(--color-dark-card)] bg-[var(--color-dark-card)] px-7 py-5">
 					<p class="font-medium text-[var(--color-dark-text)]">{belief}</p>
 				</div>
@@ -237,34 +237,21 @@
 	</div>
 </section>
 
-<!-- TESTIMONIALS -->
+<!-- FOUNDATIONAL COMMITMENTS -->
 <section class="px-6 py-24">
-	<div class="mx-auto max-w-5xl">
-		<h2 class="mb-12 text-center font-serif text-3xl font-bold text-[var(--color-ink)]">
-			Trust signals
+	<div class="mx-auto max-w-3xl text-center">
+		<h2 class="font-serif text-3xl font-bold text-[var(--color-ink)] md:text-4xl">
+			Foundational commitments
 		</h2>
-		<div class="grid gap-6 sm:grid-cols-3">
-			<div class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-card)] p-7">
-				<blockquote class="font-serif text-base italic leading-relaxed text-[var(--color-ink)]">
-					"We stopped fighting our tools and started noticing our team."
-				</blockquote>
-				<p class="mt-4 text-sm font-semibold text-[var(--color-ink)]">Sarah Mitchell</p>
-				<p class="text-sm text-[var(--color-muted)]">Worship Director, Grace Community Church</p>
-			</div>
-			<div class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-card)] p-7">
-				<blockquote class="font-serif text-base italic leading-relaxed text-[var(--color-ink)]">
-					"Volunteers actually reply faster because the asks are clear and gentle."
-				</blockquote>
-				<p class="mt-4 text-sm font-semibold text-[var(--color-ink)]">TODO: Real testimonial</p>
-				<p class="text-sm text-[var(--color-muted)]">Role, Church Name</p>
-			</div>
-			<div class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-card)] p-7">
-				<blockquote class="font-serif text-base italic leading-relaxed text-[var(--color-ink)]">
-					"The plan felt calmer, and Sunday felt less reactive."
-				</blockquote>
-				<p class="mt-4 text-sm font-semibold text-[var(--color-ink)]">TODO: Real testimonial</p>
-				<p class="text-sm text-[var(--color-muted)]">Role, Church Name</p>
-			</div>
+		<p class="mx-auto mt-4 max-w-lg text-[var(--color-muted)]">
+			These are not features. They are the promises we hold ourselves to as we build.
+		</p>
+		<div class="mt-10 grid gap-4 text-left sm:grid-cols-2">
+			{#each beliefs as belief (belief)}
+				<div class="rounded-xl border border-[var(--color-border)] bg-[var(--color-card)] px-7 py-5">
+					<p class="font-medium leading-relaxed text-[var(--color-ink)]">{belief}</p>
+				</div>
+			{/each}
 		</div>
 	</div>
 </section>
