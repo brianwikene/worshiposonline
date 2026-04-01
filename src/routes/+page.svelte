@@ -116,26 +116,26 @@
 <!-- HERO -->
 <section class="px-6 pb-24 pt-20 text-center md:pt-32">
 	<div class="mx-auto max-w-3xl">
-		<p class="mb-4 text-sm font-semibold uppercase tracking-widest text-[var(--color-muted)]">
+		<p class="mb-4 text-sm font-semibold uppercase tracking-widest text-muted-foreground">
 			Calm church operations
 		</p>
-		<h1 class="font-serif text-5xl font-bold leading-tight text-[var(--color-ink)] md:text-6xl lg:text-7xl">
+		<h1 class="font-serif text-5xl font-bold leading-tight text-foreground md:text-6xl lg:text-7xl">
 			A calm place to plan, schedule, and shepherd your people.
 		</h1>
-		<p class="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-[var(--color-muted)]">
+		<p class="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
 			WorshipOS helps your team carry real ministry responsibility without drowning in spreadsheets,
 			urgency alerts, and fragmented tools.
 		</p>
 		<div class="mt-10 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
 			<a
 				href="https://worship-os.com/interest"
-				class="rounded-xl bg-[var(--color-brand)] px-8 py-3.5 font-semibold text-white transition-colors hover:bg-[var(--color-brand-mid)]"
+				class="rounded-xl bg-primary px-8 py-3.5 font-semibold text-primary-foreground transition-colors hover:bg-secondary"
 			>
 				Request early access
 			</a>
 			<a
 				href="/docs"
-				class="rounded-xl border border-[var(--color-border)] bg-white px-8 py-3.5 font-semibold text-[var(--color-ink)] transition-colors hover:bg-[var(--color-surface)]"
+				class="rounded-xl border border-border bg-card px-8 py-3.5 font-semibold text-foreground transition-colors hover:bg-muted"
 			>
 				Explore the docs
 			</a>
@@ -144,16 +144,16 @@
 </section>
 
 <!-- WEIGHT YOU CARRY -->
-<section class="bg-[var(--color-card)] px-6 py-20">
+<section class="bg-card px-6 py-20">
 	<div class="mx-auto max-w-2xl text-center">
-		<h2 class="font-serif text-3xl font-bold text-[var(--color-ink)] md:text-4xl">
+		<h2 class="font-serif text-3xl font-bold text-foreground md:text-4xl">
 			We understand the weight you carry.
 		</h2>
-		<p class="mt-6 text-lg leading-relaxed text-[var(--color-muted)]">
+		<p class="mt-6 text-lg leading-relaxed text-muted-foreground">
 			You are not just organizing people. You are stewarding trust, protecting volunteers from
 			burnout, and helping every Sunday feel cared for.
 		</p>
-		<p class="mt-4 text-lg leading-relaxed text-[var(--color-muted)]">
+		<p class="mt-4 text-lg leading-relaxed text-muted-foreground">
 			That work deserves software that lowers noise and makes decisions clearer.
 		</p>
 	</div>
@@ -163,29 +163,29 @@
 <section class="px-6 py-20">
 	<div class="mx-auto max-w-4xl">
 		<div class="mb-10 text-center">
-			<h2 class="font-serif text-3xl font-bold text-[var(--color-ink)] md:text-4xl">
+			<h2 class="font-serif text-3xl font-bold text-foreground md:text-4xl">
 				The difference
 			</h2>
-			<p class="mt-3 text-[var(--color-muted)]">
+			<p class="mt-3 text-muted-foreground">
 				Most church software shouts. WorshipOS observes, clarifies, and helps leaders decide.
 			</p>
 		</div>
-		<div class="overflow-hidden rounded-2xl border border-[var(--color-border)]">
+		<div class="overflow-hidden rounded-2xl border border-border">
 			<div class="grid grid-cols-2">
-				<div class="border-b border-r border-[var(--color-border)] bg-red-50 px-6 py-3">
+				<div class="border-b border-r border-border bg-red-50 px-6 py-3">
 					<p class="text-xs font-bold uppercase tracking-widest text-red-400">Pressure language</p>
 				</div>
-				<div class="border-b border-[var(--color-border)] bg-[var(--color-surface)] px-6 py-3">
-					<p class="text-xs font-bold uppercase tracking-widest text-[var(--color-brand)]">Calm operational language</p>
+				<div class="border-b border-border bg-background px-6 py-3">
+					<p class="text-xs font-bold uppercase tracking-widest text-primary">Calm operational language</p>
 				</div>
 			</div>
 			{#each differences as row (row.pressure)}
 				<div class="grid grid-cols-2">
-					<div class="border-b border-r border-[var(--color-border)] bg-red-50 px-6 py-5">
+					<div class="border-b border-r border-border bg-red-50 px-6 py-5">
 						<p class="text-sm text-red-700">{row.pressure}</p>
 					</div>
-					<div class="border-b border-[var(--color-border)] bg-[var(--color-card)] px-6 py-5">
-						<p class="text-sm text-[var(--color-ink)]">{row.calm}</p>
+					<div class="border-b border-border bg-card px-6 py-5">
+						<p class="text-sm text-foreground">{row.calm}</p>
 					</div>
 				</div>
 			{/each}
@@ -194,22 +194,22 @@
 </section>
 
 <!-- FEATURES -->
-<section id="features" class="bg-[var(--color-card)] px-6 py-20">
+<section id="features" class="bg-card px-6 py-20">
 	<div class="mx-auto max-w-5xl">
 		<div class="mb-12 text-center">
-			<h2 class="font-serif text-3xl font-bold text-[var(--color-ink)] md:text-4xl">
+			<h2 class="font-serif text-3xl font-bold text-foreground md:text-4xl">
 				What it does
 			</h2>
-			<p class="mx-auto mt-3 max-w-lg text-[var(--color-muted)]">
+			<p class="mx-auto mt-3 max-w-lg text-muted-foreground">
 				Everything your team needs to plan, coordinate, and care — in one quiet, reliable place.
 			</p>
 		</div>
 		<div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
 			{#each features as feature (feature.title)}
-				<div class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)] p-7">
+				<div class="rounded-2xl border border-border bg-background p-7">
 					<span class="mb-4 block text-2xl">{feature.icon}</span>
-					<h3 class="mb-2 font-serif text-xl font-bold text-[var(--color-ink)]">{feature.title}</h3>
-					<p class="text-sm leading-relaxed text-[var(--color-muted)]">{feature.body}</p>
+					<h3 class="mb-2 font-serif text-xl font-bold text-foreground">{feature.title}</h3>
+					<p class="text-sm leading-relaxed text-muted-foreground">{feature.body}</p>
 				</div>
 			{/each}
 		</div>
@@ -217,20 +217,20 @@
 </section>
 
 <!-- MANIFESTO — DARK SECTION -->
-<section class="bg-[var(--color-brand)] px-6 py-24 text-[var(--color-dark-text)]">
+<section class="bg-primary px-6 py-24 text-primary-foreground">
 	<div class="mx-auto max-w-4xl">
 		<div class="mb-14 text-center">
-			<h2 class="font-serif text-3xl font-bold text-[var(--color-dark-text)] md:text-4xl">
+			<h2 class="font-serif text-3xl font-bold text-primary-foreground md:text-4xl">
 				Manifesto
 			</h2>
-			<p class="mt-3 text-[var(--color-dark-muted)]">
+			<p class="mt-3 text-primary-foreground/70">
 				Software for the church should preserve dignity, protect context, and keep people human.
 			</p>
 		</div>
 		<div class="grid gap-4 sm:grid-cols-2">
 			{#each beliefs as belief (belief)}
-				<div class="rounded-xl border border-[var(--color-dark-card)] bg-[var(--color-dark-card)] px-7 py-5">
-					<p class="font-medium text-[var(--color-dark-text)]">{belief}</p>
+				<div class="rounded-xl border border-white/15 bg-white/10 px-7 py-5">
+					<p class="font-medium text-primary-foreground">{belief}</p>
 				</div>
 			{/each}
 		</div>
@@ -240,16 +240,16 @@
 <!-- FOUNDATIONAL COMMITMENTS -->
 <section class="px-6 py-24">
 	<div class="mx-auto max-w-3xl text-center">
-		<h2 class="font-serif text-3xl font-bold text-[var(--color-ink)] md:text-4xl">
+		<h2 class="font-serif text-3xl font-bold text-foreground md:text-4xl">
 			Foundational commitments
 		</h2>
-		<p class="mx-auto mt-4 max-w-lg text-[var(--color-muted)]">
+		<p class="mx-auto mt-4 max-w-lg text-muted-foreground">
 			These are not features. They are the promises we hold ourselves to as we build.
 		</p>
 		<div class="mt-10 grid gap-4 text-left sm:grid-cols-2">
 			{#each beliefs as belief (belief)}
-				<div class="rounded-xl border border-[var(--color-border)] bg-[var(--color-card)] px-7 py-5">
-					<p class="font-medium leading-relaxed text-[var(--color-ink)]">{belief}</p>
+				<div class="rounded-xl border border-border bg-card px-7 py-5">
+					<p class="font-medium leading-relaxed text-foreground">{belief}</p>
 				</div>
 			{/each}
 		</div>
@@ -257,28 +257,28 @@
 </section>
 
 <!-- FAQ -->
-<section class="bg-[var(--color-card)] px-6 py-20">
+<section class="bg-card px-6 py-20">
 	<div class="mx-auto max-w-2xl">
-		<h2 class="mb-10 text-center font-serif text-3xl font-bold text-[var(--color-ink)]">
+		<h2 class="mb-10 text-center font-serif text-3xl font-bold text-foreground">
 			Common objections
 		</h2>
-		<div class="divide-y divide-[var(--color-border)]">
+		<div class="divide-y divide-border">
 			{#each faqs as faq, i (faq.q)}
 				<div class="py-5">
 					<button
 						onclick={() => (openFaq = openFaq === i ? null : i)}
 						class="flex w-full items-center justify-between gap-4 text-left"
 					>
-						<span class="font-medium text-[var(--color-ink)]">{faq.q}</span>
+						<span class="font-medium text-foreground">{faq.q}</span>
 						<span
-							class="shrink-0 text-[var(--color-muted)] transition-transform duration-200"
+							class="shrink-0 text-muted-foreground transition-transform duration-200"
 							class:rotate-180={openFaq === i}
 						>
 							↓
 						</span>
 					</button>
 					{#if openFaq === i}
-						<p class="mt-3 text-sm leading-relaxed text-[var(--color-muted)]">{faq.a}</p>
+						<p class="mt-3 text-sm leading-relaxed text-muted-foreground">{faq.a}</p>
 					{/if}
 				</div>
 			{/each}
@@ -289,22 +289,22 @@
 <!-- FINAL CTA -->
 <section class="px-6 py-24 text-center">
 	<div class="mx-auto max-w-xl">
-		<h2 class="font-serif text-4xl font-bold text-[var(--color-ink)]">
+		<h2 class="font-serif text-4xl font-bold text-foreground">
 			A calm place to hold the life of your church.
 		</h2>
-		<p class="mx-auto mt-4 max-w-md text-[var(--color-muted)]">
+		<p class="mx-auto mt-4 max-w-md text-muted-foreground">
 			Move from reactive coordination to steady shepherding, one gathering at a time.
 		</p>
 		<div class="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
 			<a
 				href="https://worship-os.com/interest"
-				class="rounded-xl bg-[var(--color-brand)] px-8 py-3.5 font-semibold text-white transition-colors hover:bg-[var(--color-brand-mid)]"
+				class="rounded-xl bg-primary px-8 py-3.5 font-semibold text-primary-foreground transition-colors hover:bg-secondary"
 			>
 				Request early access
 			</a>
 			<a
 				href="https://worship-os.com/login"
-				class="rounded-xl border border-[var(--color-border)] bg-white px-8 py-3.5 font-semibold text-[var(--color-ink)] transition-colors hover:bg-[var(--color-surface)]"
+				class="rounded-xl border border-border bg-card px-8 py-3.5 font-semibold text-foreground transition-colors hover:bg-muted"
 			>
 				Sign in
 			</a>

@@ -21,22 +21,22 @@
 	<meta name="twitter:image" content="https://www.getworshipos.com/og-image.png" />
 </svelte:head>
 
-<header class="sticky top-0 z-50 border-b border-[var(--color-border)] bg-[var(--color-surface)]/90 backdrop-blur-sm">
+<header class="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur-sm">
 	<div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-		<a href="/" class="font-serif text-lg font-bold tracking-tight text-[var(--color-ink)]">WorshipOS</a>
-		<nav class="hidden items-center gap-7 text-sm font-medium text-[var(--color-muted)] md:flex">
-			<a href="/#features" class="transition-colors hover:text-[var(--color-ink)]">Product</a>
-			<a href="/docs" class="transition-colors hover:text-[var(--color-ink)]">Docs</a>
-			<a href="/blog" class="transition-colors hover:text-[var(--color-ink)]">Blog</a>
-			<a href="/#about" class="transition-colors hover:text-[var(--color-ink)]">About</a>
+		<a href="/" class="font-serif text-lg font-bold tracking-tight text-foreground">WorshipOS</a>
+		<nav class="hidden items-center gap-7 text-sm font-medium text-muted-foreground md:flex">
+			<a href="/#features" class="transition-colors hover:text-foreground">Product</a>
+			<a href="/docs" class="transition-colors hover:text-foreground">Docs</a>
+			<a href="/blog" class="transition-colors hover:text-foreground">Blog</a>
+			<a href="/#about" class="transition-colors hover:text-foreground">About</a>
 		</nav>
 		<div class="flex items-center gap-3">
-			<a href="https://worship-os.com/login" class="text-sm font-medium text-[var(--color-muted)] transition-colors hover:text-[var(--color-ink)]">
+			<a href="https://worship-os.com/login" class="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
 				Log in
 			</a>
 			<a
 				href="https://worship-os.com/interest"
-				class="rounded-lg bg-[var(--color-brand)] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[var(--color-brand-mid)]"
+				class="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-colors hover:bg-secondary"
 			>
 				Get started
 			</a>
@@ -46,48 +46,48 @@
 
 {@render children()}
 
-<footer class="border-t border-[var(--color-border)] bg-[var(--color-surface)]">
+<footer class="border-t border-border bg-background">
 	<div class="mx-auto max-w-6xl px-6 py-14">
 		<div class="grid grid-cols-2 gap-10 md:grid-cols-4">
 			<!-- Brand -->
 			<div class="col-span-2 md:col-span-1">
-				<p class="font-serif text-base font-bold text-[var(--color-ink)]">WorshipOS</p>
-				<p class="mt-2 text-sm leading-relaxed text-[var(--color-muted)]">
+				<p class="font-serif text-base font-bold text-foreground">WorshipOS</p>
+				<p class="mt-2 text-sm leading-relaxed text-muted-foreground">
 					Worship planning that honors the person, not just the production.
 				</p>
 			</div>
 			<!-- Product -->
 			<div>
-				<p class="mb-3 text-xs font-bold uppercase tracking-widest text-[var(--color-subtle)]">Product</p>
-				<ul class="space-y-2 text-sm text-[var(--color-muted)]">
-					<li><a href="/#features" class="hover:text-[var(--color-ink)]">Features</a></li>
-					<li><a href="/docs" class="hover:text-[var(--color-ink)]">Docs</a></li>
-					<li><a href="/blog" class="hover:text-[var(--color-ink)]">Blog</a></li>
-					<li><a href="https://worship-os.com/interest" class="hover:text-[var(--color-ink)]">Get Started</a></li>
+				<p class="mb-3 text-xs font-bold uppercase tracking-widest text-muted-foreground/70">Product</p>
+				<ul class="space-y-2 text-sm text-muted-foreground">
+					<li><a href="/#features" class="hover:text-foreground">Features</a></li>
+					<li><a href="/docs" class="hover:text-foreground">Docs</a></li>
+					<li><a href="/blog" class="hover:text-foreground">Blog</a></li>
+					<li><a href="https://worship-os.com/interest" class="hover:text-foreground">Get Started</a></li>
 				</ul>
 			</div>
 			<!-- Company -->
 			<div>
-				<p class="mb-3 text-xs font-bold uppercase tracking-widest text-[var(--color-subtle)]">Company</p>
-				<ul class="space-y-2 text-sm text-[var(--color-muted)]">
-					<li><a href="/#about" class="hover:text-[var(--color-ink)]">About</a></li>
-					<li><a href="mailto:hello@getworshipos.com" class="hover:text-[var(--color-ink)]">Contact</a></li>
+				<p class="mb-3 text-xs font-bold uppercase tracking-widest text-muted-foreground/70">Company</p>
+				<ul class="space-y-2 text-sm text-muted-foreground">
+					<li><a href="/#about" class="hover:text-foreground">About</a></li>
+					<li><a href="mailto:hello@getworshipos.com" class="hover:text-foreground">Contact</a></li>
 				</ul>
 			</div>
 			<!-- Resources -->
 			<div>
-				<p class="mb-3 text-xs font-bold uppercase tracking-widest text-[var(--color-subtle)]">Resources</p>
-				<ul class="space-y-2 text-sm text-[var(--color-muted)]">
-					<li><a href="/docs/getting-started" class="hover:text-[var(--color-ink)]">Getting Started Guide</a></li>
-					<li><a href="/docs" class="hover:text-[var(--color-ink)]">Help Center</a></li>
+				<p class="mb-3 text-xs font-bold uppercase tracking-widest text-muted-foreground/70">Resources</p>
+				<ul class="space-y-2 text-sm text-muted-foreground">
+					<li><a href="/docs/getting-started" class="hover:text-foreground">Getting Started Guide</a></li>
+					<li><a href="/docs" class="hover:text-foreground">Help Center</a></li>
 				</ul>
 			</div>
 		</div>
-		<div class="mt-12 flex flex-col items-center justify-between gap-3 border-t border-[var(--color-border)] pt-6 text-xs text-[var(--color-subtle)] md:flex-row">
+		<div class="mt-12 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground/70 md:flex-row">
 			<p>© {new Date().getFullYear()} WorshipOS. All rights reserved.</p>
 			<div class="flex gap-5">
-				<a href="https://worship-os.com/legal/privacy" class="hover:text-[var(--color-muted)]">Privacy</a>
-				<a href="https://worship-os.com/legal/terms" class="hover:text-[var(--color-muted)]">Terms</a>
+				<a href="https://worship-os.com/legal/privacy" class="hover:text-muted-foreground">Privacy</a>
+				<a href="https://worship-os.com/legal/terms" class="hover:text-muted-foreground">Terms</a>
 			</div>
 		</div>
 	</div>

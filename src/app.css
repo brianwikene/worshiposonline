@@ -5,24 +5,26 @@
 	--font-sans: 'Inter', system-ui, sans-serif;
 	--font-serif: 'Lora', Georgia, serif;
 
-	/* Brand palette — warm, pastoral, calm */
-	--color-brand:      #2a3728;   /* dark forest green — primary CTAs, dark section bg */
-	--color-brand-mid:  #3d5239;   /* slightly lighter green for hover states */
-	--color-ink:        #1a1f18;   /* near-black with green undertone */
-	--color-muted:      #6b7569;   /* medium warm gray-green */
-	--color-subtle:     #9aa097;   /* lighter muted for captions */
-	--color-surface:    #f5f4f0;   /* warm off-white — page background */
-	--color-card:       #ffffff;   /* pure white for cards */
-	--color-border:     #e2e0da;   /* warm light border */
-	--color-dark-card:  #3a4c37;   /* card bg within dark section */
-	--color-dark-text:  #e8ebe7;   /* text on dark background */
-	--color-dark-muted: #a8b4a6;   /* muted text on dark background */
+	/* Semantic color tokens — named to match worship-os.com's token system
+	   so cross-repo changes only require updating values, not class names. */
+	--color-primary:             #2a3728;   /* dark forest green — CTAs, brand accent */
+	--color-primary-foreground:  #e8ebe7;   /* warm near-white — text on primary bg */
+	--color-secondary:           #3d5239;   /* lighter green — hover states */
+	--color-secondary-foreground: #e8ebe7;
+	--color-background:          #f5f4f0;   /* warm off-white — page background */
+	--color-foreground:          #1a1f18;   /* near-black with green undertone — body text */
+	--color-card:                #ffffff;   /* pure white — card surfaces */
+	--color-card-foreground:     #1a1f18;
+	--color-muted:               #e8e6e0;   /* warm light gray — muted backgrounds */
+	--color-muted-foreground:    #6b7569;   /* medium gray-green — secondary text */
+	--color-border:              #e2e0da;   /* warm light border */
+	--color-ring:                #2a3728;   /* focus ring */
 }
 
 body {
 	font-family: var(--font-sans);
-	color: var(--color-ink);
-	background: var(--color-surface);
+	color: var(--color-foreground);
+	background: var(--color-background);
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -42,7 +44,7 @@ body {
 .prose h2 { font-size: 1.5rem; }
 .prose h3 { font-size: 1.2rem; }
 .prose p  { margin-bottom: 1.25em; }
-.prose a  { color: var(--color-brand); text-decoration: underline; }
+.prose a  { color: var(--color-primary); text-decoration: underline; }
 .prose ul, .prose ol { padding-left: 1.5rem; margin-bottom: 1.25em; }
 .prose li { margin-bottom: 0.4em; }
 .prose code {
@@ -52,8 +54,8 @@ body {
 	font-size: 0.875em;
 }
 .prose pre {
-	background: var(--color-ink);
-	color: #e8ebe7;
+	background: var(--color-foreground);
+	color: var(--color-primary-foreground);
 	border-radius: 0.5rem;
 	padding: 1.25rem;
 	overflow-x: auto;
@@ -61,9 +63,9 @@ body {
 }
 .prose pre code { background: none; padding: 0; }
 .prose blockquote {
-	border-left: 3px solid var(--color-brand);
+	border-left: 3px solid var(--color-primary);
 	padding-left: 1rem;
-	color: var(--color-muted);
+	color: var(--color-muted-foreground);
 	font-style: italic;
 	margin: 1.5em 0;
 }
