@@ -11,41 +11,32 @@ The volunteer who served every week last year but now helps once a month is not 
 
 Life rarely moves in straight lines.
 
-A new child arrives.
-A job becomes demanding.
-A parent becomes ill.
-A season of rest becomes necessary.
+A new child arrives. A job becomes demanding. A parent becomes ill. A season of rest becomes necessary.
 
-Faithful people sometimes become less visible for a while.
-
-That is not failure. It is simply life.
+Faithful people sometimes become less visible for a while. That is not failure. It is simply life.
 
 Many systems struggle to understand this.
 
-Software often assumes that engagement should increase over time. More activity. More participation. More visible contribution.
-
-When that pattern changes, the system treats the shift as a warning sign.
+Software often assumes that engagement should increase over time. More activity. More participation. More visible contribution. When that pattern changes, the system treats the shift as a warning sign.
 
 But ministry is not a production system.
 
-The person who quietly steps back for a season may still be deeply committed. They may still be praying for the church, caring for people, or simply navigating a difficult season of life.
+The person who quietly steps back for a season may still be deeply committed. They may still be praying for the church, caring for people, or simply navigating a difficult season with integrity.
 
 Healthy leadership notices patterns without rushing to judgment.
 
-Good tools should support that posture.
-
-Software can surface information. It can show that someone's rhythm has changed. But it should not assume it understands why.
+Good tools should support that posture. Software can surface information — it can show that someone's rhythm has changed, that a volunteer has declined recent invitations, that a faithful team member has gone quiet. But it should not assume it understands why.
 
 Discernment belongs to people.
 
-A pastor who knows the family, the context, and the story can interpret what a pattern means.
-
-A system cannot.
+A pastor who knows the family, the context, and the story can interpret what a pattern means. A system cannot.
 
 That boundary matters.
 
+This is why WorshipOS treats these signals as invitations to conversation, not as automated judgments. The system might notice that someone has been serving without a break, or that a once-active volunteer has quietly pulled back. But the response belongs to a real person — a leader who can ask "how are you really doing?" rather than a dashboard that assigns a risk score.
+
+People are not pipelines. They do not advance through stages. They move through seasons — some full, some quiet, some difficult, some restoring.
+
 WorshipOS is designed to notice patterns while leaving interpretation to the leaders who actually know the people involved.
 
-Because people live in seasons.
-
-And good ministry learns to recognize them.
+Because people live in seasons. And good ministry learns to recognize them.

@@ -19,30 +19,24 @@ But it quietly teaches a strange lesson: that the truth of what happened is less
 
 Real services are rarely tidy.
 
-A prayer lasts longer than expected.
-A song gets skipped.
-A testimony emerges unexpectedly.
-A leader senses the need to change direction mid-service.
+A prayer lasts longer than expected. A song gets skipped. A testimony emerges unexpectedly. A leader senses the need to change direction mid-service.
 
-Those moments are not mistakes.
+Those moments are not mistakes. They are part of what the church actually experienced together.
 
-They are part of what the church actually experienced together.
-
-Preparation still matters. The original plan reflects careful thought and prayer. But the adjustments made during the service matter too.
+Preparation still matters. The original plan reflects careful thought and prayer. But the adjustments made during the service — the audibles, the Spirit-led pivots, the human moments that could not have been scheduled — matter too.
 
 Healthy teams learn from both.
 
-That is why WorshipOS preserves two things:
+That is why WorshipOS preserves two things: what was planned, and what actually happened.
 
-What was planned.
-What actually happened.
+When a service plan is locked before the gathering, the preparation is protected. The song selections, the arrangements, the order — all of it is preserved exactly as the team prepared it. When something changes during the service, those changes are recorded alongside the original plan rather than overwriting it.
+
+A skipped song stays in the record with a note that it was not performed. An unplanned moment gets added without erasing what came before. The original plan and the lived experience exist side by side.
 
 The goal is not to judge either version.
 
 The goal is to tell the truth.
 
-When the record stays honest, teams can reflect more clearly. Leaders remember the real rhythm of the gathering rather than a polished version reconstructed afterward.
+When the record stays honest, teams can reflect more clearly. Leaders remember the real rhythm of the gathering rather than a polished version reconstructed afterward. Conversations about what worked and what did not start from shared reality instead of convenient memory.
 
-Truth builds trust.
-
-And trust matters more than tidy records.
+Truth builds trust. And trust matters more than tidy records.

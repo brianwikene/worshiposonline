@@ -39,6 +39,18 @@ The system can flag:
 
 What happens next belongs to the leaders who know those people.
 
+## The Posture of Check-In
+
+Check-In is not only a workflow. It is a posture.
+
+In a healthy ministry, software should help a church pay better attention without making the room feel mechanical. That is especially important in a no hype environment, where the goal is not to impress people with efficiency, but to support the quiet human work of shepherding.
+
+- **Awareness** — using the system to notice the person in front of you, and to notice the patterns of those who have been absent
+- **Availability** — keeping coordination calm and still, so leaders are protected from the rush of logistics and remain present to people
+- **Willingness** — being ready to respond pastorally when the system surfaces a need for care
+
+This is the point of Check-In at its best: not faster administration for its own sake, but clearer attention, steadier presence, and more faithful follow-up.
+
 ## Kids ministry check-in
 
 For churches using Check-In in a kids ministry context, the system connects children to parent or guardian records. This is important for security — a child should only leave with the right person — and for pastoral care across the whole family.

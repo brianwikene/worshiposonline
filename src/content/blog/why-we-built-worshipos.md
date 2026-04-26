@@ -23,21 +23,19 @@ When those patterns arrive in church leadership, they can slowly shift the postu
 
 Leaders who began with a pastoral instinct start feeling like operators.
 
-That shift happens gradually.
-
-Most pastors and worship leaders do not choose it. It simply accumulates through the tools they use.
+That shift happens gradually. Most pastors and worship leaders do not choose it. It simply accumulates through the tools they use.
 
 WorshipOS began as a response to that tension.
 
 Not because planning services is unimportant. Preparation matters deeply. Good coordination protects volunteers and helps gatherings happen smoothly.
 
-But planning should serve people, not replace them.
+But planning should serve people, not replace the work of caring for them.
 
-A worship leader preparing a service on Tuesday afternoon should feel clarity, not pressure. The system should show what is known, what is still open, and what the team is carrying together. It should support discernment rather than manufacturing urgency.
+A worship leader preparing a service on Tuesday afternoon should feel clarity, not pressure. The system should show what is known — who has confirmed, what the plan looks like, what is still open — and then stop. It should support discernment rather than manufacture urgency.
 
-The goal is not to build louder software.
+That is what coordination in service of care actually looks like.
 
-The goal is to build calmer tools.
+The goal is not to build louder software. The goal is to build calmer tools.
 
 Tools that help churches:
 
@@ -45,13 +43,13 @@ Plan without panic.
 Tell the truth about what happened.
 Protect the people doing the work.
 
-That posture shapes every decision in WorshipOS.
+That posture shapes every decision in WorshipOS. When a service is locked, the original plan is preserved. When things change during the gathering — a prayer runs long, a song gets skipped, the leader senses the Spirit moving differently — those adjustments are recorded honestly rather than erased. Both versions matter: what was planned and what actually happened.
 
-Some features will exist because they help leaders care for people better.
+Some features exist because they help leaders care for people better. The system notices patterns — who has been serving without rest, who has quietly stepped back, who might need a conversation — so that leaders can respond with wisdom rather than react to a crisis.
 
-Some features will not exist because they quietly encourage pressure, comparison, or unnecessary urgency.
+Some features do not exist because they would quietly encourage pressure, comparison, or unnecessary urgency. WorshipOS will not score faithfulness, rank engagement, or gamify service. Those are not features we have not gotten to yet. They are features we have chosen not to build.
 
-What we refuse to build will matter just as much as what we ship.
+What we refuse to build matters just as much as what we ship.
 
 Because the church deserves tools that strengthen pastoral instincts rather than replacing them.
 
